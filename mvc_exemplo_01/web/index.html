@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Apenas para fins educacionais.
+Citar a fonte em caso de uso para terceiros
+-->
+<html>
+    <head>
+        <title>Primeiro MVC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Cadastro</h1>
+        <form name="frm_exemplo_mvc" action="Controle" method="POST">
+            <label>Nome: </label><input type="text" name="nome" /><br>
+            <label>Sobrenome: </label><input type="text" name="sobreNome" /><br>
+            <label>Sexo: </label>
+            <select name="sexo">
+                <option value="Masculino">Masculino</option>
+                <option value="Feminino">Feminino</option>
+            </select><br>
+            <label>Idade: </label><input type="text" name="idade" /><br>
+            <input type="submit" name="btEnviar" value="Enviar" />
+        </form>
+    </body>
+</html>
